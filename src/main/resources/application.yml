@@ -1,0 +1,14 @@
+server:
+  port: 9090
+
+
+spring:
+  datasource:
+    drive-class-name: org.postgresql.Drive
+    url: jdbs:postgresql://localhost:5432/SocialMedia
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true,
